@@ -1,0 +1,9 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="container" style="margin-top: 140px;">
+    <h1>Welcome to {{title}}</h1>
+    <ul *ngFor="let product of products">
+        <li class="list-unstyled">{{product.name}} - R${{product.price}}</li>
+    </ul>
+</div>
+
